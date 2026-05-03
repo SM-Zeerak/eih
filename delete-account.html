@@ -1,0 +1,152 @@
+<!doctype html>
+<!--
+  Deploy checklist:
+  - Host at a stable HTTPS URL (e.g. https://earninhome.com/delete-account.html).
+  - Use the Privacy Policy URL in Play Console Store settings + Data safety delete URL.
+  - Replace support email if needed; match your monitored inbox.
+  - Edit "Earn In Home" if your Play Store title differs.
+  - Verify retention timelines and bullet lists against your backend and legal advice.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Account &amp; data deletion — Earn In Home</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --fg: #111;
+        --muted: #444;
+        --bg: #fff;
+        --card: #f6f7f9;
+        --border: #e6e8ee;
+        --link: #0b5fff;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --fg: #f2f2f2;
+          --muted: #c9c9c9;
+          --bg: #0e0f12;
+          --card: #14161b;
+          --border: #262a33;
+          --link: #7ab0ff;
+        }
+      }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        background: var(--bg);
+        color: var(--fg);
+        line-height: 1.6;
+      }
+      main {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 40px 18px 64px;
+      }
+      header {
+        padding: 18px 18px 10px;
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        background: var(--card);
+      }
+      h1 {
+        margin: 0 0 6px;
+        font-size: 1.75rem;
+        line-height: 1.25;
+      }
+      .meta {
+        margin: 0;
+        color: var(--muted);
+      }
+      h2 {
+        margin-top: 28px;
+        font-size: 1.15rem;
+      }
+      a {
+        color: var(--link);
+      }
+      ul {
+        padding-left: 18px;
+      }
+      strong {
+        font-weight: 650;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Account &amp; data deletion</h1>
+        <p class="meta">
+          For the mobile application <strong>Earn In Home</strong> (listed on Google Play; developer product “Earn in home”).
+        </p>
+        <p class="meta"><strong>Last updated:</strong> May 12, 2026</p>
+      </header>
+
+      <p>
+        This page explains how to ask us to delete your <strong>Earn In Home</strong> account and associated personal data
+        tied to that account.
+      </p>
+
+      <h2>How to request account deletion</h2>
+      <ul>
+        <li>
+          <strong>Email.</strong>
+          Send a message from the email address registered on your account to
+          <a href="mailto:support@earninhome.com?subject=Earn%20In%20Home%20%E2%80%94%20Account%20deletion%20request"
+            >support@earninhome.com</a
+          >
+          with the subject
+          <strong>Earn In Home — Account deletion request</strong>.
+          Include your registered email and, if you know them, your <strong>user ID</strong> or <strong>refer ID</strong> so we
+          can confirm ownership.
+        </li>
+      </ul>
+
+      <h2>What we delete</h2>
+      <p>Once we verify your request, we delete or anonymize, where technically feasible:</p>
+      <ul>
+        <li>Your account profile information (such as name, email on file, and profile photo if stored with us).</li>
+        <li>
+          Credentials and identifiers used only for your account (sessions/tokens invalidated as part of deletion where
+          applicable).
+        </li>
+        <li>App activity tied to your user identifier (such as rewards/points ledger, referrals, and task submissions—as applicable).</li>
+      </ul>
+
+      <h2>What we may retain</h2>
+      <ul>
+        <li>
+          <strong>Legal and security:</strong> information we must keep to meet legal obligations, prevent abuse, enforce our
+          terms, or handle disputes.
+        </li>
+        <li>
+          <strong>Backups and aggregates:</strong> residual copies may exist in backups for a limited time before routine rotation;
+          we do not use retained data for new purposes incompatible with deletion.
+        </li>
+      </ul>
+
+      <h2>Processing time</h2>
+      <p>
+        We acknowledge requests promptly and aim to finish deletion within <strong>30 days</strong> unless a lawful exception
+        requires a longer retention. We confirm by email once processing is complete.
+      </p>
+
+      <h2>Partial deletion</h2>
+      <p>
+        If you need specific data removed without closing your entire account (for example profile photo only), reply to our
+        support email explaining what to remove. If we cannot honor a partial request, we will tell you whether full account deletion
+        is required.
+      </p>
+
+      <h2>Privacy policy</h2>
+      <p>
+        For how we collect and use data generally, see the
+        <a href="./privacy-policy.html">Privacy Policy</a>.
+        <!-- After deployment, if this file is not next to privacy-policy.html on your server,
+             change href to your full privacy URL, e.g. https://earninhome.com/privacy-policy.html -->
+      </p>
+    </main>
+  </body>
+</html>
